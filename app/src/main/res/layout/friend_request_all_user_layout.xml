@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/request_profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/default_image"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/laylay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/request_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:padding="5dp"
+                android:text="Display Name"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <Button
+
+                    android:id="@+id/request_accept_btn"
+                    android:layout_width="95dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:background="@color/colorMessage"
+                    android:paddingLeft="5dp"
+                    android:text="ACCEPT"
+                    android:textSize="16sp" />
+
+                <Button
+
+                    android:id="@+id/request_decline_btn"
+                    android:layout_width="95dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/colorMessage"
+                    android:paddingLeft="5dp"
+                    android:text="CANCEL"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

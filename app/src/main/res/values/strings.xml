@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">iDroid</string>
+    <string name="account_settingstring">Account Setting</string>
+    <string name="logoutstring">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="friends_text_label">FRIENDS</string>
+    <string name="chats_text_label">CHATS</string>
+    <string name="requests_text_label">REQUESTS</string>
+    <string name="all_users_menu">All Users</string>
+</resources>
