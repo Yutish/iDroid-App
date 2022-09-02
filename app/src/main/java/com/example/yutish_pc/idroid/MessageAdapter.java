@@ -22,7 +22,7 @@ import java.util.Locale;
 public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageViewHolder> {
     String ss = null;
     private List<Messages> userMessageList;
-    TextToSpeech tospeech;
+    TextToSpeech tospeech;//text to speech here
     int result;
 
     private FirebaseAuth mAuth;

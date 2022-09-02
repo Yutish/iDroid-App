@@ -1,5 +1,5 @@
 package com.example.yutish_pc.idroid;
-
+//
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -29,7 +29,7 @@ import java.util.Locale;
 public class ChatsFragment extends Fragment {
 
 
-    TextToSpeech tospeech;
+    TextToSpeech tospeech;//text to speech here
     int result;
 
     private RecyclerView myChatsList;

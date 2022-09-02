@@ -1,5 +1,5 @@
 package com.example.yutish_pc.idroid;
-
+//
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -38,7 +38,7 @@ import java.util.Locale;
 public class RequestsFragment extends Fragment {
 
 
-    TextToSpeech tospeech;
+    TextToSpeech tospeech;//text to speech here
     int result;
 
 
